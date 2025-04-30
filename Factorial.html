@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial</title>
+</head>
+<body>
+    <script>
+        function factorial(num) {
+            let fact = 1;
+            for (let i = 1; i <= num; i++) {
+                fact = fact * i;
+            }
+            return fact;
+        }
+
+        let number = 5;
+        console.log(`Factorial of ${number} is: ${factorial(number)}`);
+    </script>
+</body>
+</html>
